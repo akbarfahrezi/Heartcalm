@@ -1,136 +1,335 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HEARTCALM Acne Water Gel — perawatan ringan untuk kulit berjerawat.">
-  <title>HEARTCALM Acne Water Gel — Rawat Kulit dengan Tenang</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEARTCALM Acne Water Gel</title>
+    
+    <!-- Vendor styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
-  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#home" aria-label="HEARTCALM beranda"><span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span> HEARTCALM<span class="brand-dot">.</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Buka navigasi"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
-          <li class="nav-item"><a class="nav-link" href="#ingredients">Bahan</a></li>
-          <li class="nav-item"><a class="nav-link" href="#benefits">Manfaat</a></li>
-          <li class="nav-item"><a class="nav-link" href="#concerns">Permasalahan</a></li>
-          <li class="nav-item"><a class="nav-link" href="#results">Hasil penggunaan</a></li>
-          <li class="nav-item"><a class="nav-link" href="#reviews">Ulasan</a></li>
-          <li class="nav-item"><a class="nav-link nav-cta" href="#newsletter">Dapatkan info <i class="bi bi-arrow-up-right"></i></a></li>
-        </ul>
-      </div>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <i class="bi bi-droplet-fill me-2"></i>HEARTCALM
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#bahan">Bahan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#manfaat">Manfaat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#permasalahan">Permasalahan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hasil">Hasil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <span class="badge bg-light text-success border border-success mb-3 px-3 py-2 rounded-pill">Dermatologist Tested</span>
+                    <h1 class="display-4 fw-bold mb-3">Kulit Tenang,<br>Bebas Jerawat.</h1>
+                    <p class="lead mb-4 text-muted">HEARTCALM Acne Water Gel diformulasikan khusus untuk meredakan jerawat meradang sekaligus menghidrasi kulit secara mendalam tanpa rasa lengket.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#pembelian" class="btn btn-primary-custom"><i class="bi bi-cart2 me-2"></i>Beli Sekarang</a>
+                        <a href="#konsultasi" class="btn btn-outline-custom"><i class="bi bi-chat-dots me-2"></i>Konsultasi Admin</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://placehold.co/600x600/e8f4f2/559c9e?text=HEARTCALM+Product+Mockup" alt="HEARTCALM Acne Water Gel" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bahan Section -->
+    <section id="bahan">
+        <div class="container">
+            <h2 class="section-title">Kandungan Utama</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://placehold.co/500x400/f0f8ff/7b9e89?text=Active+Ingredients" class="img-fluid rounded-4 shadow-sm" alt="Ingredients">
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item bg-transparent border-bottom-0 pb-3">
+                            <h4 class="text-success fw-bold"><i class="bi bi-check2-circle me-2"></i>Salicylic Acid (BHA) 2%</h4>
+                            <p class="text-muted mb-0">Membersihkan pori-pori tersumbat dan mengangkat sel kulit mati secara lembut.</p>
+                        </li>
+                        <li class="list-group-item bg-transparent border-bottom-0 pb-3">
+                            <h4 class="text-success fw-bold"><i class="bi bi-check2-circle me-2"></i>Centella Asiatica</h4>
+                            <p class="text-muted mb-0">Terkenal akan sifat menenangkannya untuk meredakan kemerahan dan iritasi.</p>
+                        </li>
+                        <li class="list-group-item bg-transparent border-bottom-0">
+                            <h4 class="text-success fw-bold"><i class="bi bi-check2-circle me-2"></i>Hyaluronic Acid</h4>
+                            <p class="text-muted mb-0">Menjaga kelembapan kulit tanpa membuatnya berminyak (water-based hidration).</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Accordion untuk Bahan Tambahan -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion shadow-sm rounded" id="accordionBahan">
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Bahan Tambahan (Additional Ingredients)
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionBahan">
+                                <div class="accordion-body text-muted">
+                                    <strong>Niacinamide:</strong> Membantu mencerahkan bekas jerawat.<br>
+                                    <strong>Panthenol (Vitamin B5):</strong> Memperbaiki skin barrier yang rusak.<br>
+                                    <strong>Allantoin:</strong> Melindungi kulit dan merangsang pertumbuhan sel baru.<br>
+                                    <em>Bebas dari paraben, alkohol, dan pewangi buatan.</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manfaat Section -->
+    <section id="manfaat" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Manfaat HEARTCALM</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+                        </div>
+                        <h5 class="fw-bold">Meredakan Kemerahan</h5>
+                        <p class="text-muted">Kandungan Cica dengan cepat menenangkan kulit yang meradang akibat jerawat aktif.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon-box"><i class="bi bi-moisture"></i></div>
+                        </div>
+                        <h5 class="fw-bold">Mengontrol Minyak</h5>
+                        <p class="text-muted">Tekstur gel air menyeimbangkan hidrasi dan sebum tanpa menyumbat pori-pori.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon-box"><i class="bi bi-stars"></i></div>
+                        </div>
+                        <h5 class="fw-bold">Memudarkan Bekas</h5>
+                        <p class="text-muted">Kombinasi BHA dan Niacinamide membantu menyamarkan PIE dan PIH perlahan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Permasalahan Section -->
+    <section id="permasalahan">
+        <div class="container">
+            <h2 class="section-title">Solusi Untuk Berbagai Masalah Kulit</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="carouselMasalah" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselMasalah" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#carouselMasalah" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carouselMasalah" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://placehold.co/800x400/e8f4f2/2c3e50?text=Jerawat+Meradang" class="d-block w-100" alt="Jerawat Meradang">
+                                <div class="carousel-caption d-none d-md-block shadow-sm">
+                                    <h5 class="fw-bold text-primary-color">Jerawat Meradang</h5>
+                                    <p class="mb-0">Menenangkan pembengkakan dan rasa sakit dalam semalaman.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/800x400/fdf5e6/2c3e50?text=Bekas+Jerawat" class="d-block w-100" alt="Bekas Jerawat">
+                                <div class="carousel-caption d-none d-md-block shadow-sm">
+                                    <h5 class="fw-bold text-primary-color">Bekas Jerawat Kemerahan (PIE)</h5>
+                                    <p class="mb-0">Memperbaiki tekstur dan meratakan warna kulit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/800x400/f0f8ff/2c3e50?text=Kulit+Sensitif" class="d-block w-100" alt="Kulit Sensitif">
+                                <div class="carousel-caption d-none d-md-block shadow-sm">
+                                    <h5 class="fw-bold text-primary-color">Kulit Sensitif & Dehidrasi</h5>
+                                    <p class="mb-0">Hidrasi ringan yang aman untuk skin barrier rapuh.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMasalah" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMasalah" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hasil Penggunaan Section -->
+    <section id="hasil" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Hasil Nyata dalam 14 Hari</h2>
+            <div class="row g-4 text-center justify-content-center">
+                <div class="col-md-5">
+                    <div class="card card-custom p-3">
+                        <img src="https://placehold.co/400x300/ffdddd/a00?text=Before+(Hari+1)" class="img-fluid rounded mb-3" alt="Before">
+                        <h5 class="fw-bold text-danger">Sebelum</h5>
+                        <p class="text-muted small">Jerawat aktif dan kemerahan merata</p>
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-arrow-right-circle-fill text-success fs-1 d-none d-md-block"></i>
+                    <i class="bi bi-arrow-down-circle-fill text-success fs-1 d-md-none my-3"></i>
+                </div>
+                <div class="col-md-5">
+                    <div class="card card-custom p-3">
+                        <img src="https://placehold.co/400x300/e8f4f2/559c9e?text=After+(Hari+14)" class="img-fluid rounded mb-3" alt="After">
+                        <h5 class="fw-bold text-success">Sesudah</h5>
+                        <p class="text-muted small">Jerawat kempes, kulit lebih cerah dan tenang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni">
+        <div class="container">
+            <h2 class="section-title">Apa Kata Mereka?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <div class="text-warning mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic text-muted">"Teksturnya water gel banget! Cepat meresap dan besok paginya jerawat batu langsung mateng dan kempes. Gak bikin kulit kering."</p>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-secondary rounded-circle me-3" style="width: 40px; height: 40px;"></div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Sarah A.</h6>
+                                <small class="text-muted">Kulit Kombinasi</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <div class="text-warning mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic text-muted">"Penyelamat banget waktu skin barrier lagi rusak dan breakout parah. Sangat calming dan beneran ngurangin kemerahan."</p>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-secondary rounded-circle me-3" style="width: 40px; height: 40px;"></div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Budi T.</h6>
+                                <small class="text-muted">Kulit Berminyak, Sensitif</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom p-4">
+                        <div class="text-warning mb-2">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="fst-italic text-muted">"Udah jar ke-3! Cocok banget buat daily moisturizer yang punya acne-prone skin. Gak lengket pas ditimpa sunscreen."</p>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-secondary rounded-circle me-3" style="width: 40px; height: 40px;"></div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Dina M.</h6>
+                                <small class="text-muted">Acne Prone</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="bg-light pb-5 pt-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h3 class="fw-bold mb-3">Dapatkan Info Promo & Tips Perawatan Kulit</h3>
+                    <p class="text-muted mb-4">Berlangganan newsletter kami dan nikmati diskon 10% untuk pembelian pertama Anda!</p>
+                    
+                    <form id="newsletterForm" class="d-flex flex-column flex-sm-row gap-2" novalidate>
+                        <div class="flex-grow-1 position-relative text-start">
+                            <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="Masukkan alamat email Anda" required>
+                            <div class="invalid-feedback">
+                                Silakan masukkan format email yang valid (contoh: nama@email.com).
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom px-4">Langganan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h4 class="fw-bold mb-3"><i class="bi bi-droplet-fill me-2"></i>HEARTCALM</h4>
+            <p class="mb-4">Perawatan Kulit Lembut untuk Hari yang Lebih Baik.</p>
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+                <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <p class="small text-white-50 mb-0">&copy; 2026 HEARTCALM Skincare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Success Modal (Simulation) -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header bg-success text-white border-0">
+                    <h5 class="modal-title" id="successModalLabel"><i class="bi bi-check-circle-fill me-2"></i>Berhasil!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <p class="mb-0 fs-5">Terima kasih telah berlangganan!</p>
+                    <p class="text-muted mt-2">Cek kotak masuk email Anda untuk mendapatkan kode promo diskon 10%.</p>
+                </div>
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn btn-outline-success px-4 rounded-pill" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
 
-  <main>
-    <section id="home" class="hero section-pad">
-      <div class="container">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6 hero-copy">
-            <div class="eyebrow"><span></span> SKINCARE, TANPA DRAMA</div>
-            <h1>Tenangkan kulit.<br><em>Pulihkan percaya diri.</em></h1>
-            <p class="hero-lead">Kenali HEARTCALM Acne Water Gel, gel perawatan bertekstur ringan untuk menemani rutinitas kulit yang rentan berjerawat.</p>
-            <div class="hero-actions">
-              <a class="btn btn-dark btn-lg rounded-pill px-4" href="https://www.tokopedia.com/" target="_blank" rel="noopener noreferrer">Beli Sekarang <i class="bi bi-arrow-up-right ms-2"></i></a>
-              <a class="btn btn-outline-dark btn-lg rounded-pill px-4" href="https://wa.me/" target="_blank" rel="noopener noreferrer"><i class="bi bi-chat-dots me-2"></i>Konsultasi Admin</a>
-            </div>
-            <div class="hero-proof"><div class="proof-icon"><i class="bi bi-droplet-half"></i></div><div><strong>Tekstur water gel</strong><small>Ringan untuk rutinitas harian</small></div><span class="proof-divider"></span><div><strong>Skin-first care</strong><small>Rawat dengan konsisten</small></div></div>
-            <p class="small-note">*Informasi manfaat bersifat umum. Periksa label resmi dan lakukan patch test sebelum pemakaian.</p>
-          </div>
-          <div class="col-lg-6">
-            <div class="product-stage">
-              <div class="stage-orbit orbit-one"></div><div class="stage-orbit orbit-two"></div>
-              <div class="stage-note note-top"><i class="bi bi-stars"></i> Your calm-skin ritual</div>
-              <div class="product-shadow"></div>
-              <div class="product-tube" role="img" aria-label="Ilustrasi kemasan HEARTCALM Acne Water Gel">
-                <div class="tube-seam"></div><div class="tube-logo">♡<span>HEARTCALM</span></div>
-                <div class="tube-rule"></div><div class="tube-name">ACNE<br>WATER GEL</div>
-                <div class="tube-sub">CALM / CARE / HYDRATE</div><div class="tube-volume">NET 20 g</div><div class="tube-cap"></div>
-              </div>
-              <div class="stage-note note-bottom"><span class="tiny-leaf">✳</span><span><strong>Keep it gentle.</strong><small>One step at a time.</small></span></div>
-              <div class="floating-dot dot-a"></div><div class="floating-dot dot-b"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-bottom"><span>MADE FOR YOUR EVERYDAY ROUTINE</span><span>01 / CARE WITH HEART</span></div>
-    </section>
-
-    <section id="ingredients" class="section-pad ingredients-section">
-      <div class="container">
-        <div class="section-heading row align-items-end gy-3">
-          <div class="col-lg-7"><div class="eyebrow">01 / BAHAN PILIHAN</div><h2>Kenali apa yang<br><em>kulitmu butuhkan.</em></h2></div>
-          <div class="col-lg-5"><p class="section-intro">Mulai dari memahami fungsi bahan. Cocokkan selalu dengan daftar komposisi pada kemasan resmi produk yang kamu miliki.</p></div>
-        </div>
-        <div class="ingredient-feature row g-0 align-items-stretch">
-          <div class="col-lg-5 ingredient-art"><div class="ingredient-art-inner"><span class="art-label">THE WATER-GEL FEEL</span><div class="gel-drop"></div><div class="gel-ring"></div><span class="art-caption">Lightweight<br>by design.</span></div></div>
-          <div class="col-lg-7 ingredient-content"><span class="mini-label">SOROTAN TEKSTUR</span><h3>Ringan, segar,<br>mudah diratakan.</h3><p>Water gel umumnya terasa lebih ringan dibanding krim yang pekat. Pilih produk berdasarkan kebutuhan kulit dan petunjuk pemakaian pada label.</p><div class="ingredient-tags"><span><i class="bi bi-check2"></i> Rutinitas praktis</span><span><i class="bi bi-check2"></i> Nyaman dipakai berlapis</span></div>
-            <div class="accordion ingredient-accordion" id="extraIngredients">
-              <div class="accordion-item"><h4 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#extraOne" aria-expanded="false" aria-controls="extraOne">Bahan tambahan yang umum dijumpai <i class="bi bi-plus-lg ms-auto"></i></button></h4><div id="extraOne" class="accordion-collapse collapse" data-bs-parent="#extraIngredients"><div class="accordion-body">Contoh bahan yang kerap digunakan dalam skincare adalah humektan untuk membantu menjaga kelembapan dan bahan penunjang formula. Ini bukan daftar komposisi terverifikasi HEARTCALM; cek kemasan produk untuk INCI yang sebenarnya.</div></div></div>
-              <div class="accordion-item"><h4 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#extraTwo" aria-expanded="false" aria-controls="extraTwo">Cara membaca daftar komposisi <i class="bi bi-plus-lg ms-auto"></i></button></h4><div id="extraTwo" class="accordion-collapse collapse" data-bs-parent="#extraIngredients"><div class="accordion-body">Periksa nama bahan, petunjuk pemakaian, tanggal kedaluwarsa, dan peringatan pada label. Jika kulit mudah bereaksi, lakukan patch test dan hentikan pemakaian bila muncul iritasi.</div></div></div>
-              <div class="accordion-item"><h4 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#extraThree" aria-expanded="false" aria-controls="extraThree">Tips pemakaian bertahap <i class="bi bi-plus-lg ms-auto"></i></button></h4><div id="extraThree" class="accordion-collapse collapse" data-bs-parent="#extraIngredients"><div class="accordion-body">Mulai sesuai petunjuk label, hindari menumpuk banyak produk aktif sekaligus, dan gunakan sunscreen pada pagi/siang hari. Konsultasikan dengan tenaga kesehatan jika jerawat berat atau menetap.</div></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="benefits" class="section-pad benefits-section">
-      <div class="container">
-        <div class="section-heading text-center mx-auto"><div class="eyebrow justify-content-center">02 / MANFAAT</div><h2>Perawatan yang terasa<br><em>lebih sederhana.</em></h2><p class="section-intro mx-auto">Bangun rutinitas yang realistis: kenali kulit, gunakan produk sesuai label, lalu beri waktu untuk mengevaluasi.</p></div>
-        <div class="row g-3 benefit-grid">
-          <div class="col-md-4"><article class="benefit-card"><div class="benefit-icon"><i class="bi bi-droplet"></i></div><span class="card-index">01</span><h3>Rasa ringan</h3><p>Tekstur water gel dirancang untuk memberi sensasi ringan saat diaplikasikan.</p></article></div>
-          <div class="col-md-4"><article class="benefit-card featured"><div class="benefit-icon"><i class="bi bi-heart"></i></div><span class="card-index">02</span><h3>Rutinitas lebih nyaman</h3><p>Langkah perawatan yang sederhana membantu kamu lebih konsisten merawat kulit.</p></article></div>
-          <div class="col-md-4"><article class="benefit-card"><div class="benefit-icon"><i class="bi bi-shield-check"></i></div><span class="card-index">03</span><h3>Kenali kebutuhan kulit</h3><p>Amati respons kulit dan pilih perawatan tambahan berdasarkan kebutuhanmu.</p></article></div>
-        </div>
-        <p class="disclaimer"><i class="bi bi-info-circle me-1"></i> Hasil dapat berbeda pada setiap orang. Klaim spesifik produk perlu merujuk pada informasi resmi produsen.</p>
-      </div>
-    </section>
-
-    <section id="concerns" class="section-pad concerns-section">
-      <div class="container">
-        <div class="row align-items-end mb-4 gy-3"><div class="col-lg-7"><div class="eyebrow">03 / PERMASALAHAN KULIT</div><h2>Setiap kulit punya<br><em>ceritanya sendiri.</em></h2></div><div class="col-lg-5"><p class="section-intro">Geser untuk mengenali beberapa kondisi kulit yang umum. Informasi ini bukan diagnosis medis.</p></div></div>
-        <div id="concernCarousel" class="carousel slide concern-carousel" data-bs-ride="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active"><div class="concern-slide"><div class="concern-number">01</div><div class="concern-visual visual-acne"><span class="face-shape"></span><span class="spot spot-1"></span><span class="spot spot-2"></span><span class="spot spot-3"></span></div><div class="concern-copy"><span class="mini-label">KONDISI UMUM</span><h3>Jerawat muncul berulang</h3><p>Jerawat bisa dipengaruhi banyak faktor, termasuk produksi minyak, sumbatan pori, hormon, dan peradangan. Hindari memencet jerawat.</p><span class="care-tip"><i class="bi bi-lightbulb"></i> Tips: pilih rutinitas lembut dan konsisten.</span></div></div></div>
-            <div class="carousel-item"><div class="concern-slide"><div class="concern-number">02</div><div class="concern-visual visual-oily"><span class="face-shape"></span><span class="shine shine-1"></span><span class="shine shine-2"></span><span class="shine shine-3"></span></div><div class="concern-copy"><span class="mini-label">KONDISI UMUM</span><h3>Kulit terasa berminyak</h3><p>Kulit berminyak merupakan kondisi umum. Membersihkan wajah secara berlebihan justru dapat membuat kulit terasa tidak nyaman.</p><span class="care-tip"><i class="bi bi-lightbulb"></i> Tips: gunakan pembersih lembut.</span></div></div></div>
-            <div class="carousel-item"><div class="concern-slide"><div class="concern-number">03</div><div class="concern-visual visual-sensitive"><span class="face-shape"></span><span class="flush flush-1"></span><span class="flush flush-2"></span></div><div class="concern-copy"><span class="mini-label">KONDISI UMUM</span><h3>Kulit mudah terasa sensitif</h3><p>Rasa perih, kering, atau kemerahan bisa menjadi tanda kulit tidak cocok dengan suatu produk. Hentikan produk yang memicu reaksi.</p><span class="care-tip"><i class="bi bi-lightbulb"></i> Tips: lakukan patch test terlebih dahulu.</span></div></div></div>
-          </div>
-          <div class="carousel-controls"><div class="carousel-indicators"><button type="button" data-bs-target="#concernCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#concernCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#concernCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button></div><div class="d-flex gap-2"><button class="round-control" type="button" data-bs-target="#concernCarousel" data-bs-slide="prev" aria-label="Slide sebelumnya"><i class="bi bi-arrow-left"></i></button><button class="round-control" type="button" data-bs-target="#concernCarousel" data-bs-slide="next" aria-label="Slide berikutnya"><i class="bi bi-arrow-right"></i></button></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="results" class="section-pad results-section">
-      <div class="container"><div class="row align-items-center gy-5"><div class="col-lg-6"><div class="eyebrow">04 / HASIL PENGGUNAAN</div><h2>Fokus pada progres,<br><em>bukan kesempurnaan.</em></h2><p class="section-intro">Perubahan kulit membutuhkan waktu dan hasilnya tidak sama untuk semua orang. Dokumentasikan kondisi kulit dengan pencahayaan serupa agar perbandingan lebih adil.</p><div class="result-steps"><div><span>01</span><p><strong>Mulai dengan konsisten</strong><small>Ikuti petunjuk penggunaan pada kemasan.</small></p></div><div><span>02</span><p><strong>Amati respons kulit</strong><small>Catat perubahan, kenyamanan, atau iritasi.</small></p></div><div><span>03</span><p><strong>Evaluasi dengan realistis</strong><small>Jika jerawat menetap atau berat, konsultasikan ke dokter kulit.</small></p></div></div></div><div class="col-lg-6"><div class="results-card"><div class="results-card-top"><span>YOUR SKIN JOURNAL</span><i class="bi bi-journal-heart"></i></div><div class="journal-visual"><div class="journal-circle"><i class="bi bi-flower1"></i></div><div class="journal-spark spark-one">✳</div><div class="journal-spark spark-two">✦</div></div><h3>Catat perjalanan kulitmu.</h3><p>Foto progres pribadi membantu melihat perubahan dari waktu ke waktu—tanpa filter dan tanpa membandingkan diri dengan orang lain.</p><div class="journal-footer"><span><i class="bi bi-calendar2-check me-2"></i>Rutinitas yang konsisten</span><span>♡</span></div></div></div></div></div>
-    </section>
-
-    <section id="reviews" class="section-pad testimonial-section">
-      <div class="container review-note">
-        <div class="eyebrow">05 / ULASAN PELANGGAN</div>
-        <div class="review-note-layout">
-          <div><h2>Pengalaman nyata,<br><em>bukan janji kosong.</em></h2></div>
-          <div><p class="section-intro">Kami tidak menampilkan ulasan sebelum ada testimoni pelanggan asli yang dapat diverifikasi dan digunakan dengan izin. Jika Anda memiliki ulasan yang sah, bagian ini dapat diperbarui tanpa mengubah struktur utama halaman.</p><a class="text-link" href="https://wa.me/" target="_blank" rel="noopener noreferrer">Tanyakan informasi produk <i class="bi bi-arrow-up-right"></i></a></div>
-        </div>
-      </div>
-    </section>
-
-<section id="newsletter" class="newsletter-section"><div class="container"><div class="newsletter-box"><div class="newsletter-copy"><div class="eyebrow">A LITTLE NOTE FROM US</div><h2>Rawat kulitmu.<br><em>Jangan lupa dirimu.</em></h2><p>Dapatkan kabar dan tips perawatan kulit langsung di inbox kamu.</p></div><form id="newsletterForm" class="newsletter-form" novalidate><label for="emailInput" class="form-label">Alamat email</label><div class="input-group"><input type="email" class="form-control" id="emailInput" name="email" placeholder="nama@email.com" autocomplete="email" required aria-describedby="emailFeedback"><button class="btn btn-dark" type="submit">Daftar <i class="bi bi-arrow-right ms-1"></i></button></div><div id="emailFeedback" class="form-text" aria-live="polite">Demo antarmuka: email tidak dikirim atau disimpan ke database.</div></form></div></div></section>
-  </main>
-
-  <footer class="site-footer"><div class="container"><div class="footer-main"><a class="navbar-brand" href="#home"><span class="brand-mark"><i class="bi bi-heart-pulse-fill"></i></span> HEARTCALM<span class="brand-dot">.</span></a><p>Gentle reminders for your skin and soul.</p><div class="footer-links"><a href="#ingredients">Bahan</a><a href="#benefits">Manfaat</a><a href="#newsletter">Newsletter</a><a href="https://wa.me/" target="_blank" rel="noopener noreferrer">Hubungi admin</a></div></div><div class="footer-bottom"><span>© <span id="currentYear"></span> HEARTCALM. Landing page demo.</span><span>Made with care <i class="bi bi-heart-fill"></i></span></div></div></footer>
-
-  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content newsletter-modal-content"><div class="modal-body text-center p-5"><div class="modal-check"><i class="bi bi-envelope-heart"></i></div><h2 id="newsletterModalTitle">Terima kasih!</h2><p id="modalMessage">Format email kamu valid. Ini hanya simulasi konfirmasi—belum ada email yang disimpan.</p><button type="button" class="btn btn-dark rounded-pill px-4" data-bs-dismiss="modal">Mengerti</button></div></div></div></div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+    <!-- Vendor JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
